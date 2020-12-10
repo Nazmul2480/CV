@@ -1,0 +1,47 @@
+body{
+            color: rgb(175, 158, 158);
+            margin: 0px;
+            padding: 0px;
+            background-image: url('sea.jpg');
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .navigation{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 0px auto;
+            text-align: center;
+            background-color: rgba(33, 61, 71, 0.4);
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+            font-weight: bold;
+
+        }
+        .navbar li a{
+            color: rgb(255, 5, 5);
+            text-decoration: none;
+            padding: 25px 15px;
+
+        }
+        .navbar li a:hover{
+            text-decoration: none;
+            color: rgb(8, 238, 0);
+        }
+        img{
+            display: block;
+            border-radius: 50%;
+            margin-top: 80px;
+            margin-bottom: 10px;
+            margin-left: 580px;
+            margin-right: 500px;
+        }
+        p{
+            display: block;
+            margin: 0px 540px;
+            color: rgb(71, 0, 236);
+            font-weight: bold;
+            font-size: 28px;
+
+        }

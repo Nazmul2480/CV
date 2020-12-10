@@ -1,0 +1,72 @@
+body{
+    color: rgb(175, 158, 158);
+    margin: 0px;
+    padding: 0px;
+    background-image: url('hill.jpg');
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    border: 3px solid rgb(64, 6, 119);
+    background-color: rgb(0, 0, 0, 0.2);
+    border-radius: 28px;
+    margin: 70px 340px;
+    padding: 5px 40px 30px 40px;
+    width: 40%;
+}
+.from-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin: 5px auto;
+    padding: 1px;
+    border: 2px solid black;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.container h1{
+    color: rgb(0, 17, 255);
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 74%;
+    margin: 15px auto;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(32, 136, 92);
+    color: white;
+}
+.btn:hover{
+    color: rgb(253, 249, 25);
+    background-color: rgb(16, 30, 223);
+}
+.container .from-group #mail{
+    display: block;
+    width: 74%;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(77, 67, 67);
+}
+#mail:hover{
+    color: rgb(228, 228, 19);
+    background-color: rgb(151, 132, 158);
+}
+#footer{
+    margin: 210px 0px;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(14, 255, 6);
+    background-color: rgba(65, 116, 134, 0.5);
+    font-weight: bold;
+}
